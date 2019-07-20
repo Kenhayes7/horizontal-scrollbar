@@ -1,0 +1,22 @@
+/* image straights */
+.tainer {
+    display: flex;
+    overflow-x: auto;
+}
+
+    .tainer .mini-img {
+        margin-right: 15px;
+    }
+
+    .tainer::-webkit-scrollbar {
+        display: none;
+    }
+
+.mini-img {
+    width: 300px;
+    height: 200px;
+}
+
+h4 {
+    text-align: center;
+}
